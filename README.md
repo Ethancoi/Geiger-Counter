@@ -6,6 +6,7 @@ Here is my second year project at the Grenoble Alpes University IUT1: The Geiger
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Contributors](#Contributors)
+- [Contact](#Contact)
 ## Overview
 The purpose of this project was about the detection of the radiation in the stratosphere to shut down some composent before them getting killed by the radiation.
 ## Features
@@ -15,3 +16,6 @@ This project was developed in collaboration with **CSUG** (Centre de Services Un
 - [Coissieux Ethan] - [Student]
 - [Lattat Ludivine] - [Student]
 - [Martin Frédéric] - [Engineer]
+
+## Contact
+For questions about this project, contact: [coissieuxethan@orange.fr]
