@@ -9,7 +9,9 @@ Here is my second year project at the Grenoble Alpes University IUT1: The Geiger
 - [Contact](#Contact)
 ## Overview
 The purpose of this project was about the detection of the radiation in the stratosphere to shut down some composent before them getting killed by the radiation.
+
 ## Features
+- Detects radiation with a geiger tube
 
 ## Contributors
 This project was developed in collaboration with **CSUG** (Centre de Services Universitaire de Grenoble).
