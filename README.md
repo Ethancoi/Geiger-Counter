@@ -8,8 +8,16 @@ Here is my second year project at the Grenoble Alpes University IUT1: The Geiger
 - [Contributors](#Contributors)
 - [Contact](#Contact)
 ## Overview
-The purpose of this project was about the detection of the radiation in the stratosphere to shut down some composent before them getting killed by the radiation.
-
+This project aims to detect radiation in the stratosphere and automatically shut down sensitive components before they are damaged by radiation exposure.
+### Context
+The SEED Wio E5 board was designed to be housed in stratospheric balloon gondolas (Planète Science) for use in middle and high schools. The SEED Wio E5 board can be equipped with a Mikrobus GPS module and a Geiger-Muller counter to transmit the balloon’s position, altitude, and atmospheric and radiological conditions (α, β, γ particles) up to 30 km altitude via long-range LoRa communications.
+Meshtastic is an open-source project that turns small LoRa radio modules into a mesh communication network without the need for the internet or cellular networks. It allows users to exchange short text messages + emojis (max 220 bytes), share GPS positions, and transmit telemetry, staying connected in remote areas with low power consumption and a range of several kilometers. Some nodes in the Meshtastic network, equipped with solar charging, are dedicated to relaying messages from other nodes. It is typically used by hikers, rescue teams in disaster situations, and ecologists studying operator network territories.
+The Seeedstudio Wio E5 Mini board is already supported by the Meshtastic firmware available on PlatformIO.
+Adding a Geiger-Muller counter will enable the detection of radioactive events to deactivate sensitive parts of electronic boards and prevent equipment damage.
+### Description
+This project involves adding the following telemetry features to the SEED Wio E5 board:
+- Counting α, β, γ pulses from a Geiger-Muller counter (interrupt on a GPIO);
+- Measuring the duration of pulses received by the Geiger-Muller tube.
 ## Features
 - Detects radiation with a geiger tube
 
