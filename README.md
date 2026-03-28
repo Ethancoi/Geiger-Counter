@@ -4,8 +4,6 @@ Here is my second year project at the Grenoble Alpes University IUT1: The Geiger
 - [Overview](#Overview)
 - [Features](#Features)
 - [How the system works](#How_the_system_works)
-- [Installation](#Installation)
-- [Usage](#Usage)
 - [Contributors](#Contributors)
 - [Contact](#Contact)
 ## Overview
@@ -22,7 +20,11 @@ This project involves adding the following telemetry features to the SEED Wio E5
 ## Features
 - Detects radiation with a geiger tube
 - Work with STM32 and Arduino
+- Count the number of impulsion
+- Look at the duration of the impulsion
+- See how many microSievert per hour is the impulsion
 ## How the system works
+By pluging the board to a microcontroller with 5V, and a pin like the A0 on arduino and STM32 you can turn on the board. By using the STM32 code you can read the data using an external software like Putty but if you use the Arduino code you can read the data just with the Serial window on the software.
 ## Contributors
 This project was developed in collaboration with **CSUG** (Centre de Services Universitaire de Grenoble).
 - [Coissieux Ethan] - [Student]
