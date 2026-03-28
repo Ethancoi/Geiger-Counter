@@ -3,6 +3,7 @@ Here is my second year project at the Grenoble Alpes University IUT1: The Geiger
 ## Table of Contents
 - [Overview](#Overview)
 - [Features](#Features)
+- [How the system works](#How_the_system_works)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Contributors](#Contributors)
@@ -20,7 +21,8 @@ This project involves adding the following telemetry features to the SEED Wio E5
 - Measuring the duration of pulses received by the Geiger-Muller tube.
 ## Features
 - Detects radiation with a geiger tube
-
+- Work with STM32 and Arduino
+## How the system works
 ## Contributors
 This project was developed in collaboration with **CSUG** (Centre de Services Universitaire de Grenoble).
 - [Coissieux Ethan] - [Student]
