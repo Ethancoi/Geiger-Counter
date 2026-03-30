@@ -25,6 +25,7 @@ This project involves adding the following telemetry features to the SEED Wio E5
 - See how many microSievert per hour is the impulsion
 ## How the system works
 By pluging the board to a microcontroller with 5V, and a pin like the A0 on arduino and STM32 you can turn on the board. By using the STM32 code you can read the data using an external software like Putty but if you use the Arduino code you can read the data just with the Serial window on the software.
+To use the code on STM32 you need the STM32L4xx librairie, you can find it in this gthub repository.
 ## Contributors
 This project was developed in collaboration with **CSUG** (Centre de Services Universitaire de Grenoble).
 - [Coissieux Ethan] - [Student]
